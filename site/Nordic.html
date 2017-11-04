@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="site.css">
+    <link rel="shortcut icon" href="images/logo.ico">
+    <title>Nordic Walking</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img id="logo"src="images/logo.jpg" alt="logo">
+    </div>
+    <div class="lol">
+      <div class="menulog" id="MonMenu">
+          <a href="Bienvenue.html">Acceuil</a><a href="niveau.html">Quel est votre niveau ?</a><a href="ski.html">Tarifs</a><a href="station.html">La station</a><a href="Nordic.html">Nordick Walking</a><a href="info.html">Infos et Contact</a><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+
+    <script>
+function myFunction() {
+  var x = document.getElementById("MonMenu");
+  if (x.className === "menulog") {
+      x.className += " responsive";
+  } else {
+      x.className = "menulog";
+  }
+}
+</script>
+      <h1>Nordic Walking</h1>
+  </body>
+</html>

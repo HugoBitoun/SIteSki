@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="site.css">
+    <link rel="shortcut icon" href="images/logo.ico">
+
+    <title>Quel est votre niveau ?</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img id="logo"src="images/logo.jpg" alt="logo">
+    </div>
+    <div class="lol">
+      <div class="menulog" id="MonMenu">
+          <a href="Bienvenue.html">Acceuil</a><a href="niveau.html">Quel est votre niveau ?</a><a href="ski.html">Tarifs</a><a href="station.html">La station</a><a href="Nordic.html">Nordick Walking</a><a href="info.html">Infos et Contact</a><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+
+    <script>
+function myFunction() {
+  var x = document.getElementById("MonMenu");
+  if (x.className === "menulog") {
+      x.className += " responsive";
+  } else {
+      x.className = "menulog";
+  }
+}
+</script>
+      <h1>Quel est votre niveau ?</h1>
+
+      <div align="center">
+			<table cellpadding="10" border="1" width="700" id="table6">
+				<tr>
+					<td align="center" width="350" ><font face="Arial" size="3">
+					<b>TECHNIQUE ACQUISE</b></font>
+					</td>
+					<td align="center" width="350"><font face="Arial" size="3">
+					<b>PREPARATION EN COURS DE SKI DE :</b></font>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" width="308"><font face="Arial" size="2">
+					Je n'ai jamais skié ou peu.</font>
+					</td>
+					<td align="center" width="308"><font face="Arial" size="2">
+					Mini grizzly</font>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" width="308"><font face="Arial" size="2">
+					Je maîtrise ma vitesse sur pistes vertes en virages chasse neige et sais prendre les remontées mécaniques.</font>
+					</td>
+					<td align="center" width="308"><font face="Arial" size="2">
+					Grizzly de bois</font>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" width="308"><font face="Arial" size="2">
+					Je sais enchaîner des virages élémentaires aussi bien sur des pistes vertes que bleues.</font>
+					</td>
+					<td align="center" width="308"><font face="Arial" size="2">
+					Grizzly de bronze</font>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" width="308"><font face="Arial" size="2">
+					Je maîtrise ma vitesse sur pistes vertes, bleues et rouges ainsi que tous les dérapages.</font>
+					</td>
+					<td align="center" width="308"><font face="Arial" size="2">
+					Grizzly d'argent</font>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" width="308"><font face="Arial" size="2">
+					Je sais faire des virages parallèles sur pistes bleues et rouges et m'aventure sur les noires.</font>
+					</td>
+					<td align="center" width="308"><font face="Arial" size="2">
+					Grizzly d'or</font>
+					</td>
+				</tr>
+			</table>
+		</div>
+  </body>
+</html>

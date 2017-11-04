@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="site.css">
+    <link rel="shortcut icon" href="images/logo.ico">
+    <title>Ecole de ski</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img id="logo"src="images/logo.jpg" alt="logo">
+    </div>
+    <div class="lol">
+      <div class="menulog" id="MonMenu">
+          <a href="Bienvenue.html">Acceuil</a><a href="niveau.html">Quel est votre niveau ?</a><a href="ski.html">Tarifs</a><a href="station.html">La station</a><a href="Nordic.html">Nordick Walking</a><a href="info.html">Infos et Contact</a><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+
+    <script>
+function myFunction() {
+  var x = document.getElementById("MonMenu");
+  if (x.className === "menulog") {
+      x.className += " responsive";
+  } else {
+      x.className = "menulog";
+  }
+}
+</script>
+
+<div>
+    <h1>Bienvenue sur le site de l'école de ski de Chrisotphe Jorly à Cauterets !</h1>
+</div>
+
+<div class="">
+  <p id="mono" > <img src="images/mono.JPG" alt=""></p>
+    <div class="description">
+      <h2>Notre engagement</h2>
+      <p>Christophe JORLY, diplômé d'état de ski, de snowboard et de surf, est originaire d'une vieille famille de Cauterets. <br>
+         Fort de 25 années d'expérience dans diverses stations de ski françaises, il vous offre un service de qualité alliant bonne humeur et sécurité au travers d'un mode d'enseignement performant.</p>
+      <p id="p2">Établissement déclaré au Ministère de la Jeunesse et des Sports - N° ET000367 <br>
+         Médailles et carnets de tests en fin de stage</p>
+    </div>
+
+     <img class="skigrizz"src="images/skigrizz.JPG" alt="skieur">
+     <img class="skigrizz"src="images/enf.JPG" alt="skieur">
+</div>
+
+
+
+  </body>
+</html>

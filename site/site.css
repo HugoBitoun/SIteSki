@@ -1,0 +1,294 @@
+.menulog {
+  margin-left: 0px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #5BCEF2;
+
+}
+
+.menulog .icon {display: none;}
+
+html{
+  background-size: cover;
+  background: url(images/montagne.JPG) no-repeat
+  center fixed;
+  -webkit-background-size: cover;
+}
+
+.menulog a{
+   display: block;
+   float: left;
+   color: white;
+   font-weight: bold;
+   border-right: solid black 1px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menulog a:first-child {
+  margin-left: 30px;
+}
+
+.menulog a:hover{
+  background-color: #82F3E4;
+  transition: 2s;
+}
+
+@media screen and (max-width: 600px) {
+  .menulog a:not(:first-child) {display: none;}
+  .menulog a.icon {
+    float: right;
+    display: block;
+    border: none;
+  }
+  .menulog a{
+    border: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menulog.responsive {position: relative;}
+  .menulog.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menulog.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    border: none;
+  }
+
+}
+
+.texteTarif {
+  border: solid black 2px;
+  border-radius: 35px;
+  padding: 10px;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.5);
+  padding-top: 0px;
+  margin: 20px;
+}
+
+.texteTarif h2 {
+  color: red;
+  text-align: center;
+}
+
+.texteTarif p{
+  font-style: Arial;
+  color: Blue;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.diaporama {
+ max-width: 1000px;
+ position: relative;
+ margin: auto;
+}
+
+.monImage {
+    display: none;
+}
+
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.point {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.numbertext {
+  position: absolute;
+  padding: 8px 12px;
+  top: 8px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.station {
+  text-align: center;
+  width: 100%;
+}
+
+.station p {
+  font-family: arial;
+  font-size: 22px;
+  color : Black;
+  width: 100%;
+}
+
+#mono img{
+  width: auto;
+  height: 575px;
+  float: left;
+  margin: 0px;
+}
+
+.description h2 {
+  font-family: Arial;
+  color: red;
+  font-weight:  bolder;
+  text-align: center;
+}
+.description p {
+  font-family: Arial;
+  color: Blue;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.description{
+  border: solid black 2px;
+  border-radius: 35px;
+  margin-left: 425px;
+  padding: 10px;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.5);
+  padding-top: 0px;
+}
+
+#p2 {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+h1{
+  font-family: fantasy;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px grey;
+}
+
+.lol {
+
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+}
+
+.logo {
+
+  margin-top: 0px;
+
+  margin-bottom: 10px;
+  position: absolute;
+  }
+
+  .logo img {
+    width: 130px;
+border-radius: 100px;
+  }
+
+.skigrizz {
+  height: auto;
+  width: 420px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: solid black 4px ;
+
+}
+
+.Tarifs {
+  margin-left: 30%;
+}
+
+.texteInfos {
+  text-align: center;
+  border: solid black 2px;
+  border-radius: 35px;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.5);
+  padding-top: 0px;
+}
+
+.texteInfos2 {
+  text-align: center;
+  border: solid black 2px;
+  border-radius: 35px;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.5);
+  padding-top: 0px;
+}
+
+.texteInfos2 h2 {
+  color: red;
+}
+
+.texteInfos2 li {
+  color: blue;
+  font-weight: bold;
+  font-size: 14px;
+}

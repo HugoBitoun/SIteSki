@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="site.css">
+    <link rel="shortcut icon" href="images/logo.ico">
+
+    <title>La station</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img id="logo"src="images/logo.jpg" alt="logo">
+    </div>
+    <div class="lol">
+      <div class="menulog" id="MonMenu">
+          <a href="Bienvenue.html">Acceuil</a><a href="niveau.html">Quel est votre niveau ?</a><a href="ski.html">Tarifs</a><a href="station.html">La station</a><a href="Nordic.html">Nordick Walking</a><a href="info.html">Infos et Contact</a><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+
+    <script>
+function myFunction() {
+  var x = document.getElementById("MonMenu");
+  if (x.className === "menulog") {
+      x.className += " responsive";
+  } else {
+      x.className = "menulog";
+  }
+}
+</script>
+
+      <h1>La station de Cauterets</h1>
+      <div class="station">
+        <p>Située à 25 minutes de Lourdes, vous découvrirez un village de style architectural original (1870 et caryatides) où Victor Hugo et de nombreuses grandes familles venaient en villégiature pour son superbe cadre, la qualité de son air et de ses eaux.
+La station offre tous les services dont vous aurez besoin pendant vos vacances.</p>
+      </div>
+
+    </div>
+    <div class="diaporama">
+      <div class="monImage fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/riv.jpg" alt="slide 1" width="100%" height="500px">
+        <div class="text">La rivière de Cauterets</div>
+      </div>
+
+      <div class="monImage fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/cinema.jpg" alt="slide 2" width="100%" height="500px">
+        <div class="text">Le cinema</div>
+      </div>
+
+      <div class="monImage fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/tapis.JPG" alt="slide 3" width="100%" height="500px">
+        <div class="text">Les pistes</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <div style="text-align:center">
+      <span class="point" onclick="SlideCourant(1)"></span>
+      <span class="point" onclick="SlideCourant(2)"></span>
+      <span class="point" onclick="SlideCourant(3)"></span>
+    </div>
+
+    <script type="text/javascript" src="slide.js"></script>
+
+  </body>
+</html>
